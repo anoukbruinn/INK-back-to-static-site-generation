@@ -1,8 +1,6 @@
 <script>
 	import '../lib/styles/fonts.css';
 	import { Header, Footer } from '../lib/index.js';
-
-	export const prerender = true;
 </script>
 
 <Header />
