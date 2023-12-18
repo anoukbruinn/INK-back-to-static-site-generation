@@ -30,8 +30,8 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-          HYGRAPH_URL: '${{ secrets.HYGRAPH_URL }}'
-          HYGRAPH_KEY: '${{ secrets.HYGRAPH_KEY }}'
+          HYGRAPH_URL: ${{ secrets.HYGRAPH_URL }}
+          HYGRAPH_KEY: ${{ secrets.HYGRAPH_KEY }}
         run: |
           npm run build
 
