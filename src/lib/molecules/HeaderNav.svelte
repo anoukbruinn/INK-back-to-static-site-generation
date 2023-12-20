@@ -1,27 +1,27 @@
 <script>
 	import { NavLogo, NavLink, BtnPrimary } from '$lib/index.js';
+	import { base } from '$app/paths';
 </script>
 
 <nav>
-	<!-- 
-    <NavLogo href="/" alt='Logo from INK'></NavLogo>
+	<NavLogo href="/" alt="Logo from INK"></NavLogo>
 
-    <input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Navigation menu" />
-    <label class="menu-icon" for="menu-btn">
-        <span class="navicon"></span>
-    </label>
+	<input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Navigation menu" />
+	<label class="menu-icon" for="menu-btn">
+		<span class="navicon"></span>
+	</label>
 
-    <ul>
-        <li>
-            <NavLink href="/about" title="About"></NavLink>
-        </li>
-        <li>
-            <NavLink href="/promise" title="Promise"></NavLink>
-        </li>
-        <li>
-            <BtnPrimary href="/becomeSponsor" title="Become sponsor"></BtnPrimary>
-        </li>
-    </ul> -->
+	<ul>
+		<li>
+			<NavLink href="{base}/about" title="About"></NavLink>
+		</li>
+		<li>
+			<NavLink href="{base}/promise" title="Promise"></NavLink>
+		</li>
+		<li>
+			<BtnPrimary href="{base}/becomeSponsor" title="Become sponsor"></BtnPrimary>
+		</li>
+	</ul>
 </nav>
 
 <style>
