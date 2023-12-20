@@ -1,27 +1,28 @@
+<script>
+	import { base } from '$app/paths';
+</script>
 
 <div class="footer-container">
-    <div class="navigatie">
-        <nav>
-            <ul class="footer-navbar">
-                <li class="contact">More</li>
-                <div class="link-container">
-                    <li><a href="/">Home</a></li>
-                </div>
-                <div class="link-container">
-                    <li><a href="/about">About</a></li>
-                </div>
-                <div class="link-container">
-                    <li><a class="promise" href="/promise">Promise</a></li>
-                </div>
-            </ul>
-        </nav>
-    </div>
+	<div class="navigatie">
+		<nav>
+			<ul class="footer-navbar">
+				<li class="contact">More</li>
+				<div class="link-container">
+					<li><a href="{base}/">Home</a></li>
+				</div>
+				<div class="link-container">
+					<li><a href="{base}/about">About</a></li>
+				</div>
+				<div class="link-container">
+					<li><a class="promise" href="{base}/promise">Promise</a></li>
+				</div>
+			</ul>
+		</nav>
+	</div>
 </div>
 
 <style>
-
-	@media only screen and (min-width: 768px) 
-	{
+	@media only screen and (min-width: 768px) {
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -52,9 +53,7 @@
 		}
 
 		.footer-container {
-		
 			padding: 5em 6em 0em 6em;
-			
 		}
 
 		.contact {
@@ -63,11 +62,10 @@
 			margin-bottom: 25px;
 			font-weight: 200;
 			margin-top: -2em;
-		}	
+		}
 	}
 
 	@media only screen and (max-width: 600px) {
-
 		.contact {
 			text-transform: uppercase;
 			display: flex;
@@ -109,16 +107,15 @@
 
 		.footer-container {
 			color: #ffffff;
-				font-size: 25px;
-				margin-bottom: 25px;
-				font-weight: 200;
-				display: flex;
-				justify-content: center;
+			font-size: 25px;
+			margin-bottom: 25px;
+			font-weight: 200;
+			display: flex;
+			justify-content: center;
 		}
 	}
 
 	@media only screen and (max-width: 768px) {
-
 		a {
 			text-decoration: none;
 			color: var(--White);
@@ -131,8 +128,5 @@
 			text-transform: uppercase;
 			margin-bottom: 5px;
 		}
-
-
-}
-
+	}
 </style>
