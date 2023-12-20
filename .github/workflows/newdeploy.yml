@@ -20,15 +20,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-   
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
           PUBLIC_HYGRAPH_URL: ${{ vars.PUBLIC_HYGRAPH_URL }}
+          PUBLIC_HYGRAPH_KEY: ${{ vars.PUBLIC_HYGRAPH_KEY}}
         run: |
           npm run build
-
-
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v2
