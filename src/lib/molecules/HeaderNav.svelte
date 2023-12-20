@@ -4,7 +4,7 @@
 </script>
 
 <nav>
-	<NavLogo href="/" alt="Logo from INK"></NavLogo>
+	<NavLogo href="{base}/"></NavLogo>
 
 	<input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Navigation menu" />
 	<label class="menu-icon" for="menu-btn">

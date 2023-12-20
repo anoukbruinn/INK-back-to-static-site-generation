@@ -1,9 +1,9 @@
-import { HYGRAPH_KEY, HYGRAPH_URL } from '$env/static/private'
+import { PUBLIC_HYGRAPH_KEY, PUBLIC_HYGRAPH_URL } from '$env/static/public';
 
-import { GraphQLClient } from 'graphql-request'
+import { GraphQLClient } from 'graphql-request';
 
-export const hygraph = new GraphQLClient(HYGRAPH_URL, {
-    headers: {
-        Authorization: `Bearer ${HYGRAPH_KEY}`
-    }
-})
+export const hygraph = new GraphQLClient(PUBLIC_HYGRAPH_URL, {
+	headers: {
+		Authorization: `Bearer ${PUBLIC_HYGRAPH_KEY}`
+	}
+});
