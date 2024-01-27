@@ -1,3 +1,7 @@
+
+<img width="1495" alt="Scherm­afbeelding 2024-01-27 om 11 20 31" src="https://github.com/anoukbruinn/INK-back-to-static-site-generation/assets/112856687/afc06395-382a-4984-a445-c57bf641fb30">
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
